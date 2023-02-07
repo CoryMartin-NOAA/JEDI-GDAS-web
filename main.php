@@ -9,7 +9,6 @@
 <link href="../../../style/fonts.css" rel="stylesheet" type="text/css" media="all" />
 <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
-<!--https://www.weather.gov/media/notification/pdf2/scn22-104_gfs.v16.3.0_aaa.pdf-->
 <?php
 $randomtoken = base64_encode( openssl_random_pseudo_bytes(32));
 $_SESSION['csrfToken']=$randomtoken;
